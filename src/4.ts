@@ -22,9 +22,9 @@ abstract class House {
     protected key: Key,
     protected tenants: Person[]
   ) {
-    this.door = false;
-    this.key = key;
-    this.tenants = [];
+    // this.door = false;
+    // this.key = key;
+    // this.tenants = [];
   }
   abstract openDoor(key: Key): void;
 
